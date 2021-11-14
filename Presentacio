@@ -1,0 +1,26 @@
+PROYECTO GRUPO # 8
+DESCRIPCIÓN
+Se desarrollara una aplicación web la cual estará compuesta por cuatro módulos principal los cuales son: 
+
+
+1. Módulo de gestión de usuarios: Este módulo estará por interfaces graficas tendientes a realizar las siguientes acciones:
+
+● Gestión de ingreso al sistema de información. La cual nos permitirá acceder y registrarnos en la aplicación ya sea como (Estudiante, líder o administrador).
+
+● Gestión de estado de usuarios. Esta le permitirá al administrador ver y cambiar el estado de los registrados como administrador, líder y estudiante (Pendiente/Autorizado/No autorizado).
+
+● Gestión de perfil. Esta le permitirá al  investigador o estudiante actualizar los datos personales que ingresó cuando se registró (Incluyendo la contraseña).
+
+2. Módulo de gestión de proyectos. Este módulo estará compuesto por una interfaz para que los líderes registren los proyectos y otra para que el administrador, líder y estudiante puedan listar y ver los detalles de los proyectos, los líderes tendrán la opción que los direccione a la interfaz de actualizar los proyectos, mientras que los estudiantes podrán realizar la inscripción a los proyectos en los que desean trabajar, y seleccionar el proyecto en el que están trabajando y quieren agregar un nuevo avance.
+
+Cada proyecto debe contar con los siguientes atributos: Identificador único del proyecto (Inmutable), nombre del proyecto, objetivos generales, objetivos específicos, presupuesto, fecha de inicio y terminación del proyecto, el documento de identificación y nombre del líder, el estado del proyecto (activo/inactivo) que será por defecto inactivo, y la fase del proyecto (iniciado, en desarrollo, terminado) que será nula por defecto.
+
+
+3. Módulo de gestión de inscripciones. Con este nódulo  los estudiantes podrán inscribirse a un proyecto, si aún no lo están, mediante la interfaz que lista los proyectos presionando un botón que generará la inscripción. El sistema tendrá una interfaz para que los líderes de cada proyecto puedan listar las inscripciones y definir sus estados. Cada inscripción tendrá los siguientes atributos: Identificador único (inmutable), los identificadores del proyecto y estudiante (para relacionarlos), el estado de la inscripción (aceptada/rechazada), la fecha de ingreso, que se pondrá automáticamente cuando el líder actualice el estado de la inscripción a aceptada; y la fecha de egreso, que se pondrá automáticamente cuando la fase del proyecto se actualice a terminada o el estado del proyecto sea actualizado a inactivo.
+
+
+4. Módulo de gestión de avances. Este módulo tendrá interfaces que  le permiten a los estudiantes registrar los avances y otra para que los estudiantes y líderes puedan listar los avances, solo los estudiantes podrán actualizar los avances del proyecto en el que están inscritos, y el líder sólo podrá añadir sus observaciones a dicho avance. Cada avance debe contar con los siguientes atributos: Identificador único del avance (inmutable), el identificador del proyecto (para relacionarlo), la fecha del avance, la descripción del avance donde se especifique cuáles fueron los aportes a los objetivos del proyecto, y las observaciones del líder.
+
+
+PRESENTACIÓN INTEGRANTES 
+1. Mi Nombre es Leonardo Fabio Vergara Ibáñez, soy biólogo de profesión tengo 32 años ,soy de san Carlos Córdoba y estoy en este programa con muchos deseos que adquirir un poco de conocimientos sobre el desarrollo de aplicaciones web.
